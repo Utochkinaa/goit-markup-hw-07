@@ -156,12 +156,7 @@ ul {
       -ms-flex-align: center;
           align-items: center;
 }
-.header__item {
-  position: relative;
-  padding-top: 32px;
-  padding-bottom: 32px;
-}
-.header-link .header__item {
+.header-link {
   display: block;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -173,17 +168,6 @@ ul {
 }
 .header__group li {
   margin-right: 50px;
-}
-
-.site-nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin-right: auto;
-  margin-left: 0;
 }
 
 .current::after {
@@ -218,7 +202,7 @@ ul {
   padding-bottom: 25px;
 }
 
-.logo-header {
+.header-logo {
   color: var(--logo-header);
 }
 
@@ -276,8 +260,30 @@ ul {
   color: var(--link-active);
 }
 
-.nav__list .header__item {
+.nav__list {
   margin-right: 50px;
+}
+
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: auto;
+  margin-left: 0;
+}
+
+.nav__item {
+  position: relative;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  margin-right: 50px;
+  display: block;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .hero {

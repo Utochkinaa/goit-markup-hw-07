@@ -16,13 +16,8 @@
     align-items: center;
 }
 
-    &__item {
-    position: relative;
-    padding-top: 32px;
-    padding-bottom: 32px;
-}
 
-    &-link  &__item {
+    &-link {
     display: block;
     align-items: center;
 }
@@ -38,12 +33,6 @@
 
 }
 
-.site-nav {
-    display: flex;
-    align-items: center;
-    margin-right: auto;
-    margin-left: 0;
-}
 
 .current::after {
     position: absolute;
